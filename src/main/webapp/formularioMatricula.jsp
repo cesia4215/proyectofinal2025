@@ -5,6 +5,18 @@
     <meta charset="UTF-8">
     <title>Formulario de Matrícula</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+        .btn-volver { margin-top: 30px; text-align: center; }
+        .btn-volver button {
+            background-color: #e2e3e5;
+            color: #383d41;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+        .btn-volver button:hover {
+            background-color: #d6d8db;
+        }
+    </style>
 </head>
 <body>
 <div class="container mt-5">
@@ -44,6 +56,13 @@
         <button type="submit" class="btn btn-primary">Registrar Matrícula</button>
     </form>
 </div>
+
+<div class="btn-volver">
+    <form action="index.jsp">
+        <button type="submit">&larr; Volver a la página principal</button>
+    </form>
+</div>
+
 </body>
 </html>
 

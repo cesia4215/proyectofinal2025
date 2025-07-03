@@ -9,5 +9,5 @@ public interface IMatricula {
 	void ActualizarMatricula(TblMatricula matricula);
 	void EliminarMatricula(TblMatricula matricula);
 	List<TblMatricula> ListadoMatricula();
-	TblMatricula BuscarAlumno(TblMatricula matricula);
+	TblMatricula BuscarMatricula(TblMatricula matricula);
 }//fin de la interface

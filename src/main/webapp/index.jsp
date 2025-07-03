@@ -15,6 +15,7 @@
                 <li class="nav-item"><a class="nav-link active" href="index.jsp">Inicio</a></li>
                 <li class="nav-item"><a class="nav-link" href="formularioAlumno.jsp">Registrar Alumno</a></li>
                 <li class="nav-item"><a class="nav-link" href="formularioMatricula.jsp">Registrar Matrícula</a></li>
+                <li class="nav-item"><a class="nav-link" href="alumnosYMatriculas.jsp">Gestión de Alumnos y Matrículas</a></li>
             </ul>
         </div>
     </div>

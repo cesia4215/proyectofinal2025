@@ -75,11 +75,11 @@ public class MatriculaJPA implements IMatricula{
 	}
 
 	@Override
-	public TblMatricula BuscarAlumno(TblMatricula alumno) {
+	public TblMatricula BuscarMatricula(TblMatricula matricula) {
 		EntityManager em = emf.createEntityManager();
         TblMatricula resultado = null;
         try {
-            resultado = em.find(TblMatricula.class, alumno.getIdMatricula());
+            resultado = em.find(TblMatricula.class, matricula.getIdMatricula());
         } catch (RuntimeException e) {
             System.out.println("Error al buscar matrícula: " + e.getMessage());
         } finally {
